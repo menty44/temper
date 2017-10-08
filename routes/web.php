@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index');
 route::get('/test', 'UserController@welcome');
 route::get('/count', 'UserController@usercount');
 route::get('/chart', 'UserController@chart');
+route::get('/highchart', 'UserController@highchart');
